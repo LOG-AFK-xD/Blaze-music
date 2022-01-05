@@ -54,11 +54,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **☞ ✰Hᴇʟʟᴏ.. ❣ {message.from_user.mention()} ❣ !**\n
- [☞ ✰Iᴍ..](https://t.me/{BOT_USERNAME})
+**[☞ ✰Iᴍ..](https://t.me/{BOT_USERNAME})**
 
 **☞ ✰Tʜɪs ɪs Vɪᴅᴇᴏ + Mᴜsɪᴄ🎶 RᴏBᴏᴛ ..!**
 
-**☞ 📢 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :-[Bʟᴀᴢᴇ](https://t.me/THE_BLAZE_NETWORK !**
+**☞ 📢 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- [Bʟᴀᴢᴇ](https://t.me/THE_BLAZE_NETWORK !**
 **☞ ✰Fᴏʀ Mᴏʀᴇ Hᴇʟᴘ Usᴇ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Aɴᴅ Aʙᴏᴜᴛ Aʟʟ Fᴇᴀᴛᴜʀᴇ Oғ Tʜɪs Bᴏᴛ, Jᴜsᴛ Tyᴘᴇ /help**
 """,
         reply_markup=InlineKeyboardMarkup(
