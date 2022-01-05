@@ -62,31 +62,26 @@ async def start_(client: Client, message: Message):
       reply_markup=InlineKeyboardMarkup(
           [
               [
-                  InlineKeyboardButton(
-                      "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
-                      url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                  )
-              ],
-              [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
-              [
-                  InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                  InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
-              ],
-              [
-                  InlineKeyboardButton(
-                      "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
-                  ),
-                  InlineKeyboardButton(
-                      "📣 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/blaze_support"
-                  ),
-              ],
-              [
-                  InlineKeyboardButton(
-                      "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
-                  ),
-                  InlineKeyboardButton(
-                      "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
-
+                  InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", callback_data="Nao_"),
+        InlineKeyboardButton(
+            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", callback_data="Nao_basichelp"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="🎇 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
+      InlineKeyboardButton(
+          text="⚙️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
+      ),
+  ],
+  [
+      InlineKeyboardButton(text="🔐 Hᴇʟᴘ Cᴍᴅ", callback_data="help_back"),
+      InlineKeyboardButton(
+          text="🏜️ Tғɴ Cʜᴀᴛ ", url=f"https://t.me/LOVE_X_POISON"
+      ),
+  ],
+  [
+      InlineKeyboardButton(
+          text="➕Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url="t.me/HYPERMEN_RBOT?startgroup=true"),
                  )
               ],
           ]
