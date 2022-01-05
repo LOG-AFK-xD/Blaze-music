@@ -59,40 +59,40 @@ async def start_(client: Client, message: Message):
 **☞ 📢 𝗣ᴏᴡᴇʀᴇᴅ 𝗕ʏ :- [Bʟᴀᴢᴇ](https://t.me/THE_BLAZE_NETWORK)!**
 **☞ ✰Fᴏʀ Mᴏʀᴇ Hᴇʟᴘ Usᴇ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Aɴᴅ Aʙᴏᴜᴛ Aʟʟ Fᴇᴀᴛᴜʀᴇ Oғ Tʜɪs Bᴏᴛ, Jᴜsᴛ Tyᴘᴇ /help**
 """,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    )
-                ],
-                [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/blaze_support"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
+      reply_markup=InlineKeyboardMarkup(
+          [
+              [
+                  InlineKeyboardButton(
+                      "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
+                      url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                  )
+              ],
+              [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
+              [
+                  InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
+                  InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
+              ],
+              [
+                  InlineKeyboardButton(
+                      "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
+                  ),
+                  InlineKeyboardButton(
+                      "📣 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/blaze_support"
+                  ),
+              ],
+              [
+                  InlineKeyboardButton(
+                      "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
+                  ),
+                  InlineKeyboardButton(
+                      "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
 
-                   )
-                ],
-            ]
-        ),
-        disable_web_page_preview=True,
-    )
+                 )
+              ],
+          ]
+      ),
+      disable_web_page_preview=True,
+  )
 
 
 @Client.on_message(
