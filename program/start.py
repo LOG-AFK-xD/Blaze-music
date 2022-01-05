@@ -54,7 +54,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **☞ ✰Hᴇʟʟᴏ.. ❣ {message.from_user.mention()} ❣ !**\n
-**[☞ ✰Iᴍ..](https://t.me/Blaze_Music_bot)**
+**☞ ✰Iᴍ..[➖ ⃟💫🇧ʟᴀᴢᴇ ✘🇲ᴜsɪᴄ ‌‌ﮩ٨ـ 🎧ﮩ٨ـ](https://t.me/Blaze_Music_bot)**
 
 **☞ ✰Tʜɪs ɪs Vɪᴅᴇᴏ + Mᴜsɪᴄ🎶 RᴏBᴏᴛ ..
 
