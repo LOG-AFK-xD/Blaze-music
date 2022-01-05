@@ -84,12 +84,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
-                   ),
-                ],
-                [
+                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                    ),
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
 
                    )
                 ],
