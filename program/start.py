@@ -76,10 +76,10 @@ async def start_(client: Client, message: Message):
               ],
               [
                   InlineKeyboardButton(
-                      "⚙️𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Blaze_Support"
+                      "⚙️ 𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Blaze_Support"
                   ),
                   InlineKeyboardButton(
-                      "𝐔ᴘᴅᴀᴛᴇ 🏜️", url=f"https://t.me/all_Dear_comrade"
+                      "𝐔ᴘᴅᴀᴛᴇ𝘀 🏜️", url=f"https://t.me/all_Dear_comrade"
               ),
           ],
           [
