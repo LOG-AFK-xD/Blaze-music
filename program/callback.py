@@ -16,16 +16,17 @@ from config import (
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""✨ **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music and video on groups through the new Telegram's video chats!**
-
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
-
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("🔐 𝗖ᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
+        f"""**☞ ✰Hᴇʟʟᴏ.. ❣ {message.from_user.mention()} ❣ !**\n
+**☞ ✰Iᴍ..[➖ ⃟💫🇧ʟᴀᴢᴇ ✘🇲ᴜsɪᴄ ‌‌ﮩ٨ـ 🎧ﮩ٨ـ](https://t.me/Blaze_Music_bot)**
+**☞ ✰Tʜɪs ɪs Vɪᴅᴇᴏ + Mᴜsɪᴄ🎶 RᴏBᴏᴛ ..**
+**☞ 📢 𝗣ᴏᴡᴇʀᴇᴅ 𝗕ʏ :- [Bʟᴀᴢᴇ](https://t.me/THE_BLAZE_NETWORK)!**
+**☞ ✰Fᴏʀ Mᴏʀᴇ Hᴇʟᴘ Usᴇ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Aɴᴅ Aʙᴏᴜᴛ Aʟʟ Fᴇᴀᴛᴜʀᴇ Oғ Tʜɪs Bᴏᴛ, Jᴜsᴛ Tyᴘᴇ /help**
+""",
+    reply_markup=InlineKeyboardMarkup(
+       [
+          [
+             
+                  InlineKeyboardButton("🔐 𝗖ᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
                   InlineKeyboardButton("𝗕ᴀ𝘀ɪᴄ 𝗚ᴜɪᴅᴇ🔰", callback_data="cbhowtouse")
               ],
               [
@@ -51,58 +52,11 @@ async def cbstart(_, query: CallbackQuery):
               InlineKeyboardButton(
                     "𝐅ɪɢʜᴛɪɴɢ 𝐂ʟᴜʙ✨", url=f"https://t.me/THE_BLAZE_FIGHTER"
              )
-                ],
-            ]
-        ),
-        disable_web_page_preview=True,
-    )
-
-
-@Client.on_callback_query(filters.regex("cbhowtouse"))
-async def cbguides(_, query: CallbackQuery):
-    await query.edit_message_text(
-        f"""❓ **Basic Guide for using this bot:**
-
-1.) **First, add me to your group.**
-2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
-3.) **After promoting me, type /reload in group to refresh the admin data.**
-3.) **Add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
-4.) **Turn on the video chat first before start to play video/music.**
-5.) **Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
-
-📌 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
-
-💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
-
-⚡ __Powered by {BOT_NAME} A.I__""",
-        reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
-        ),
-    )
-
-
-@Client.on_callback_query(filters.regex("cbcmds"))
-async def cbcmds(_, query: CallbackQuery):
-    await query.edit_message_text(
-        f"""✨ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
-
-» **press the button below to read the explanation and see the list of available commands !**
-
-⚡ __Powered by {BOT_NAME} A.I__""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("👷🏻 Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("🧙🏻 Sudo Cmd", callback_data="cbsudo"),
-                ],[
-                    InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic")
-                ],[
-                    InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")
-                ],
-            ]
-        ),
-    )
-
+          ],
+      ]
+   ),
+   disable_web_page_preview=True,
+)
 
 @Client.on_callback_query(filters.regex("cbbasic"))
 async def cbbasic(_, query: CallbackQuery):
