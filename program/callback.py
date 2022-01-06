@@ -25,28 +25,32 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                    )
-                ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
-                    )
+                    InlineKeyboardButton("🔐 𝗖ᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
+                  InlineKeyboardButton("𝗕ᴀ𝘀ɪᴄ 𝗚ᴜɪᴅᴇ🔰", callback_data="cbhowtouse")
+              ],
+              [
+                  InlineKeyboardButton(
+                      "✨𝗗ᴇᴠᴇʟᴏᴘ𝗲𝗿", url=f"https://t.me/log_afk"
+                  ),
+                  InlineKeyboardButton(
+                      "𝗗ᴇᴠᴇʟᴏᴘ𝗲𝗿 Ⅱ💠", url=f"https://t.me/Evil_xD_boy"
+                  ),
+              ],
+              [
+                  InlineKeyboardButton(
+                      "⚙️ 𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Blaze_Support"
+                  ),
+                  InlineKeyboardButton(
+                      "𝐔ᴘᴅᴀᴛᴇ𝘀 🏜️", url=f"https://t.me/all_Dear_comrade"
+              ),
+          ],
+          [
+              InlineKeyboardButton(
+                  "🎇 𝐂ʜᴀᴛ 𝐙ᴏɴᴇ", url=f"https://t.me/UNIQUE_SOCIETY"
+              ),
+              InlineKeyboardButton(
+                    "𝐅ɪɢʜᴛɪɴɢ 𝐂ʟᴜʙ✨", url=f"https://t.me/THE_BLAZE_FIGHTER"
+             )
                 ],
             ]
         ),
