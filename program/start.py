@@ -66,8 +66,7 @@ async def start_(client: Client, message: Message):
                       "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
                       url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                   )
-              ],
-              [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
+              
               [
                   InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
                   InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
