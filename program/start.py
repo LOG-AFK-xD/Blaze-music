@@ -63,31 +63,31 @@ async def start_(client: Client, message: Message):
        [
           [
              
-                  InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                  InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")
+                  InlineKeyboardButton("🔐 𝗖ᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
+                  InlineKeyboardButton("𝗕ᴀ𝘀ɪᴄ 𝗚ᴜɪᴅᴇ🔰", callback_data="cbhowtouse")
               ],
               [
                   InlineKeyboardButton(
-                      "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
+                      "✨𝗗ᴇᴠᴇʟᴏᴘ𝗲𝗿", url=f"https://t.me/log_afk"
                   ),
                   InlineKeyboardButton(
-                      "📣 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/blaze_support"
+                      "𝗗ᴇᴠᴇʟᴏᴘ𝗲𝗿 Ⅱ💠", url=f"https://t.me/Evil_xD_boy"
                   ),
               ],
               [
                   InlineKeyboardButton(
-                      "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
+                      "⚙️𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Blaze_Support"
                   ),
                   InlineKeyboardButton(
-                      "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
+                      "𝐔ᴘᴅᴀᴛᴇ 🏜️", url=f"https://t.me/all_Dear_comrade"
               ),
           ],
           [
               InlineKeyboardButton(
-                  "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
+                  "🎇 𝐂ʜᴀᴛ 𝐙ᴏɴᴇ", url=f"https://t.me/UNIQUE_SOCIETY"
               ),
               InlineKeyboardButton(
-                    "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
+                    "𝐅ɪɢʜᴛɪɴɢ 𝐂ʟᴜʙ✨", url=f"https://t.me/THE_BLAZE_FIGHTER"
              )
           ],
       ]
