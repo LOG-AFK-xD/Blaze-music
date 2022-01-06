@@ -62,9 +62,9 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-             InlineKeyboardButton(
-                    "➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", url=f" https://t.me/harsh_Pandit_xD"),
+        InlineKeyboardButton(
+            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", url= url"https://t.me/PROUD_OF_INDIAN"
                 )
             ],
             [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
