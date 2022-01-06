@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **☞ ✰Hᴇʟʟᴏ.. ❣ {message.from_user.mention()} ❣ !**\n
+        f"""**☞ ✰Hᴇʟʟᴏ.. ❣ {message.from_user.mention()} ❣ !**\n
 **☞ ✰Iᴍ..[➖ ⃟💫🇧ʟᴀᴢᴇ ✘🇲ᴜsɪᴄ ‌‌ﮩ٨ـ 🎧ﮩ٨ـ](https://t.me/Blaze_Music_bot)**
 **☞ ✰Tʜɪs ɪs Vɪᴅᴇᴏ + Mᴜsɪᴄ🎶 RᴏBᴏᴛ ..**
 **☞ 📢 𝗣ᴏᴡᴇʀᴇᴅ 𝗕ʏ :- [Bʟᴀᴢᴇ](https://t.me/THE_BLAZE_NETWORK)!**
@@ -64,7 +64,7 @@ async def start_(client: Client, message: Message):
           [
              
                   InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                  InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
+                  InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")
               ],
               [
                   InlineKeyboardButton(
