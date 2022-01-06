@@ -60,37 +60,37 @@ async def start_(client: Client, message: Message):
 **☞ ✰Fᴏʀ Mᴏʀᴇ Hᴇʟᴘ Usᴇ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Aɴᴅ Aʙᴏᴜᴛ Aʟʟ Fᴇᴀᴛᴜʀᴇ Oғ Tʜɪs Bᴏᴛ, Jᴜsᴛ Tyᴘᴇ /help**
 """,
     reply_markup=InlineKeyboardMarkup(
-        [
-            [
+       [
+          [
              InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", url=f" https://t.me/harsh_Pandit_xD"),
-        InlineKeyboardButton(
-            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", url= url"https://t.me/PROUD_OF_INDIAN"
-                )
-            ],
-            [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
-            [
-                InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
-                InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
-            ],
-            [
-                InlineKeyboardButton(
-                    "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
-                ),
-                InlineKeyboardButton(
+             InlineKeyboardButton(
+                text="📝 Bᴀsɪᴄ Hᴇʟᴘ", url= url"https://t.me/PROUD_OF_INDIAN"
+             ),
+          ],
+          [InlineKeyboardButton("❓Basic Guide 🚀", callback_data="cbhowtouse")],
+          [
+              InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"),
+              InlineKeyboardButton("❤️ Dᴇᴠᴇʟᴏᴘ", url=f"https://t.me/Log_Afk"),
+          ],
+          [
+              InlineKeyboardButton(
+                  "👥 Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ", url=f"https://t.me/UNIQUE_SOCIETY"
+              ),
+              InlineKeyboardButton(
                     "📣 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/blaze_support"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
-                ),
-                InlineKeyboardButton(
+              ),
+          ],
+          [
+              InlineKeyboardButton(
+                  "👥 Cʜᴀᴛ Zᴏɴᴇ", url=f"https://t.me/all_Dear_comrade"
+              ),
+              InlineKeyboardButton(
                     "📣 Fɪɢʜᴛɪɴɢ Cʟᴜʙ", url=f"https://t.me/THE_BLAZE_FIGHTER"
-               )
-            ],
-        ]
-    ),
-    disable_web_page_preview=True,
+             )
+          ],
+      ]
+   ),
+   disable_web_page_preview=True,
 )
 
 
